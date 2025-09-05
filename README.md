@@ -1,46 +1,47 @@
 # Purple Box Destruction
 
-Um jogo de destruição de caixas roxas implementado em Rust usando a biblioteca ggez para renderização gráfica.
+A purple box destruction game implemented in Rust using the ggez library for graphical rendering.
 
-## Características
+## Features
 
-- **Jogo de destruição de caixas** com todas as 7 peças clássicas (I, O, T, S, Z, J, L)
-- **Interface gráfica moderna** com cores vibrantes e efeitos visuais
-- **Sistema de pontuação** progressivo baseado no número de linhas limpas
-- **Aumento de dificuldade** automático conforme o nível aumenta
-- **Controles intuitivos** com suporte a teclado
-- **Peça fantasma** para melhor visualização do posicionamento
-- **Sistema de pausa** e reinício
-- **Código modular** seguindo as melhores práticas do Rust
+- **Box destruction gameplay** featuring classic pieces
+- **Modern graphical interface** with vibrant colors and visual effects  
+- **Progressive scoring system** based on the number of cleared lines  
+- **Automatic difficulty increase** as the level rises  
+- **Intuitive controls** with keyboard support  
+- **Ghost piece** for better placement visualization  
+- **Pause and restart system**  
+- **Modular codebase** following Rust best practices  
 
-## Controles
+## Controls
 
-- **Setas Esquerda/Direita**: Mover peça horizontalmente
-- **Seta para Baixo**: Mover peça para baixo
-- **Seta para Cima**: Rotacionar peça
-- **Espaço**: Hard drop (queda instantânea)
-- **P**: Pausar/Despausar jogo
-- **R**: Reiniciar jogo
-- **ESC**: Sair do jogo
+- **Left/Right Arrows**: Move piece horizontally  
+- **Down Arrow**: Move piece downward  
+- **Up Arrow**: Rotate piece  
+- **Spacebar**: Hard drop (instant fall)  
+- **P**: Pause/Unpause game  
+- **R**: Restart game  
+- **ESC**: Exit game  
 
-## Sistema de Pontuação
+## Scoring System
 
-- **1 linha**: 100 pontos × nível
-- **2 linhas**: 300 pontos × nível
-- **3 linhas**: 500 pontos × nível
-- **4 linhas (Destruição)**: 800 pontos × nível
-- **Hard drop**: 2 pontos por linha descida
+- **1 line**: 100 points × level  
+- **2 lines**: 300 points × level  
+- **3 lines**: 500 points × level  
+- **4 lines (Destruction)**: 800 points × level  
+- **Hard drop**: 2 points per dropped line  
 
-## Níveis
+## Levels
 
-O nível aumenta a cada 10 linhas limpas. A velocidade de queda aumenta com o nível, tornando o jogo mais desafiador.
+The level increases every 10 cleared lines. Drop speed increases with level, making the game more challenging.
 
-## Instalação
+## Installation
 
-### Pré-requisitos
+### Prerequisites
 
-- Rust (versão 1.70 ou superior)
-- Cargo
+- Rust (version 1.70 or higher)  
+- Cargo  
+
 
 ### Compilação e Execução
 
@@ -105,7 +106,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para:
 
 Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-## Créditos
+## :D
 
-Desenvolvido como um projeto educacional para demonstrar as capacidades do Rust na criação de jogos 2D.
+하나님의 축복이 있기를 바랍니다 🙏 (God bless you)
 
