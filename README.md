@@ -43,28 +43,28 @@ The level increases every 10 cleared lines. Drop speed increases with level, mak
 - Cargo  
 
 
-### Compilação e Execução
+### Build and Run
 
-1. Clone o repositório:
+1. Clone the repository:
 ```bash
 git clone https://github.com/guicybercode/blockdestroy/tree/main
 cd purple-box-destruction
 ```
 
-2. Compile e execute o jogo:
+2. Build and run the game:
 ```bash
 cargo run --release
 ```
 
-### Compilação para Distribuição
+### Build for Distribution
 
 ```bash
 cargo build --release
 ```
 
-O executável será criado em `target/release/purple-box-destruction`.
+build in `target/release/purple-box-destruction`.
 
-## Estrutura do Projeto
+## Project structure
 
 ```
 src/
@@ -76,35 +76,16 @@ src/
 └── audio.rs        # Sistema de áudio (placeholder)
 ```
 
-## Tecnologias Utilizadas
+## TECHNOLOGIES USED
 
-- **Rust**: Linguagem principal
-- **ggez**: Biblioteca de jogos 2D
-- **rand**: Geração de números aleatórios
-- **serde**: Serialização (para futuras funcionalidades)
+- **Rust**: Main Language
+- **ggez**: 2D Gaming
+- **rand**: Random Numbers
+- **serde**: Future hihihi
 
-## Funcionalidades Futuras
+## License
 
-- [ ] Sistema de áudio com música chiptune
-- [ ] Efeitos sonoros
-- [ ] Sistema de high scores
-- [ ] Modos de jogo alternativos
-- [ ] Configurações personalizáveis
-- [ ] Suporte a gamepad
-- [ ] Modo multiplayer local
-
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para:
-
-1. Reportar bugs
-2. Sugerir novas funcionalidades
-3. Enviar pull requests
-4. Melhorar a documentação
-
-## Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## :D
 
