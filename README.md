@@ -47,7 +47,7 @@ The level increases every 10 cleared lines. Drop speed increases with level, mak
 
 1. Clone o repositório:
 ```bash
-git clone <url-do-repositorio>
+git clone https://github.com/guicybercode/blockdestroy/tree/main
 cd purple-box-destruction
 ```
 
