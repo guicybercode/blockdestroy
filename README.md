@@ -1,7 +1,12 @@
 # Purple Box Destruction
 
+<div align="center">
+
 A purple box destruction game implemented in Rust using the ggez library for graphical rendering.
 
+<img src="game1.png" width="400"/>
+
+</div>
 ## Features
 
 - **Box destruction gameplay** featuring classic pieces
@@ -33,8 +38,13 @@ A purple box destruction game implemented in Rust using the ggez library for gra
 
 ## Levels
 
+<div align="center">
+
 The level increases every 10 cleared lines. Drop speed increases with level, making the game more challenging.
 
+<img src="game2.png" width="400"/>
+
+</div>
 ## Installation
 
 ### Prerequisites
